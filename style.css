@@ -1,5 +1,5 @@
 body {
-    background-color: antiquewhite;
+    background-color: rgb(239, 235, 215);
     font-family: 'Hanken Grotesk', sans-serif;
 }
 
@@ -66,7 +66,7 @@ border: 2px solid radial-gradient(#6045c1, #575af2);
 
 .description {
     font-weight: bold;
-    padding: 15px;
+    padding: 18px;
     color: white;
     font-size: 30px;
 }
