@@ -1,0 +1,159 @@
+body {
+    background-color: antiquewhite;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+    margin-bottom: 20px;
+ 
+    background-color: rgb(255, 255, 255);
+    border-radius: 40px;
+    border: 1px solid rgb(255, 255, 255);
+    width: 600px;
+}
+
+.result-heading {
+    color: rgb(187, 186, 189);
+    font-size: 24px;
+    padding: 15px 55px;
+    font-weight: bolder;
+}
+
+.continue {
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+    padding-top: 40px;
+}
+
+button {
+    background-color: rgb(6, 6, 92);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(6, 6, 92);
+    border-radius: 30px;
+    padding: 8px;
+}
+
+.score-result {
+    font-size: 60px;
+    color: white;
+}
+
+.results {
+    background: linear-gradient(#6e4fe0, #2575fc);
+    border: 2px solid (#6e4fe0, #2575fc);
+    border-radius: 40px;
+    text-align: center;
+    padding: 30px;
+}
+
+.score {
+background: radial-gradient(#6045c1, #575af2);    border: 2px solid radial-gradient(#6045c1, #575af2);
+    display: block;
+    margin: 0 auto;
+    border-radius: 100%;
+    width: 150px;
+    padding: 10px 15px;
+}
+
+.overall {
+    color: rgb(143, 142, 142);
+    margin-top: -15px;
+    font-weight: bolder;
+}
+
+.description {
+    font-weight: bold;
+    padding: 15px;
+    color: white;
+    font-size: 30px;
+}
+
+.results-summary {
+        color: rgb(187, 186, 189);
+        font-weight: bolder;
+}
+
+.summary {
+    text-align: center;
+    padding: 30px;
+    padding-bottom: 0px;
+}
+
+.summary-heading {
+    padding: 15px 55px;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 0px;
+    color: rgb(62, 62, 62);
+    font-weight: bold;
+}
+
+.reaction {
+    background-color: aquamarine;
+    border: 2px solid rgb(232, 209, 210, .3);
+    border-radius: 10px;
+    padding: 8px;
+    background-color: rgb(232, 209, 210, .3);
+    margin: 8px;
+}
+
+.range {
+    margin: 0px;
+    color: rgb(87, 86, 86);
+    font-weight: bolder;
+}
+
+.reaction-col, .memory-col, .verbal-col, .visual-col {
+    padding: 0px;
+    text-align: left;
+}
+
+strong {
+    color: black;
+}
+
+.reaction-col {
+    color: red;
+}
+
+.memory {
+    background-color: rgb(248, 239, 203, .3);
+    border: 2px solid rgb(248, 239, 203, .3);
+    border-radius: 10px;
+    padding: 8px;
+    margin: 8px;
+}
+
+.memory-col {
+    color: rgb(200, 174, 59);
+}
+
+.verbal {
+    background-color: rgba(169, 211, 175, 0.3);
+    border: 2px solid rgba(169, 211, 175, 0.3);
+    border-radius: 10px;
+    padding: 8px;
+    margin: 8px;
+}
+
+.verbal-col {
+    color: green;
+}
+
+.visual {
+    background-color: rgba(192, 169, 211, 0.3);
+    border: 2px solid rgba(192, 169, 211, 0.3);
+    border-radius: 10px;
+    padding: 8px;
+    margin: 8px;
+}
+
+.visual-col {
+    color: purple;
+}
+
+.attribution {
+    text-align: center;
+}
