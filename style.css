@@ -115,7 +115,7 @@ strong {
 }
 
 .reaction-col {
-    color: red;
+    color: hsl(0, 100%, 67%);
 }
 
 .memory {
@@ -127,7 +127,7 @@ strong {
 }
 
 .memory-col {
-    color: rgb(200, 174, 59);
+    color: hsl(39, 100%, 56%);
 }
 
 .verbal {
@@ -139,7 +139,7 @@ strong {
 }
 
 .verbal-col {
-    color: green;
+    color: hsl(166, 100%, 37%);
 }
 
 .visual {
@@ -151,7 +151,7 @@ strong {
 }
 
 .visual-col {
-    color: purple;
+    color: hsl(234, 85%, 45%);
 }
 
 .attribution {
