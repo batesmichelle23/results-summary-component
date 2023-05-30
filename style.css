@@ -3,18 +3,12 @@ body {
     font-family: 'Hanken Grotesk', sans-serif;
 }
 
-.container {
-    margin-top: 50px;
-    margin-bottom: 20px;
- 
-    background-color: rgb(255, 255, 255);
+.row-background{
+    background-color: white;
     border-radius: 40px;
-    border: 1px solid rgb(255, 255, 255);
-    width: 600px;
 }
 
 .result-heading {
-    color: rgb(187, 186, 189);
     font-size: 24px;
     padding: 15px 55px;
     font-weight: bolder;
@@ -42,7 +36,6 @@ button {
 
 .results {
     background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
-    border: 2px solid (#6e4fe0, #2575fc);
     border-radius: 40px;
     text-align: center;
     padding: 30px;
@@ -157,4 +150,10 @@ strong {
 
 .attribution {
     text-align: center;
+}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 970px;
+    }
 }
